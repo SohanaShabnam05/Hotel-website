@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    /* width: 90%; */
+}
+
+.head{
+    display: flex;
+    background-color: rgb(91, 75, 75);
+    justify-content: space-between;
+    height: 70px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.logo{
+    color: bisque;
+    align-items: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav{
+    margin-top: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 12px 14px;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    color: bisque;
+    overflow: hidden;
+    align-items: center;
+}
+
+.nav a:hover{
+    background-color: beige;
+    color: rgb(41, 27, 27);
+}
+
+.nav a.Active{
+    color: rgb(51, 29, 29);
+    background-color: antiquewhite;
+}
+
+.main{
+    padding: 20px;
+    display: flex;
+}
+
+.hotel{
+    float: left;
+    width: 70%;
+    margin-left: 15px;
+}
+
+.img{
+    float: right;
+    border-radius: 50%;
+    width: 60%;
+    height: 65%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.lower{
+    background: url('./images/photo1.png') no-repeat;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.lower-1{
+padding: 20px;
+font-size: 35px;
+color: rgb(233, 238, 213);
+margin: 4px;
+}
+
+.lower-2{
+    display: flex;
+    background-color: rgb(152, 152, 103, 0.8);
+}
+.lower-3{
+    display: flex;
+    background-color: rgb(152, 152, 103, 0.8);
+}
+
+.face{
+    border-radius: 50%;
+    width: 7%;
+    height: 20%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.para-4{
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+    text-align: left;
+    
+}
+.para-5{
+    align-items: left;
+    justify-content: left;
+    padding: 20px;
+    text-align: left;
+}
+
