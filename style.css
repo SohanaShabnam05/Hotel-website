@@ -48,7 +48,7 @@ body{
 }
 
 .container{
-    background: url('/images/photo4.png') no-repeat center center/cover;
+    background: url('images/photo4.png') no-repeat center center/cover;
     padding: 20px;
     display: inline-block;
     text-align: center;
@@ -99,7 +99,7 @@ body{
 
 .show-2{
     float: left;
-    background: url('/images/photo5.png') no-repeat;
+    background: url('images/photo5.png') no-repeat;
     width: 50%;
     min-height: 100%;
 }
