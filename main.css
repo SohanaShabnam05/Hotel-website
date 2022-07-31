@@ -10,6 +10,7 @@ body{
     height: 70px;
     border-radius: 6px;
     width: 100%;
+    
 }
 
 .logo{
@@ -69,12 +70,13 @@ body{
 }
 
 .lower{
-    background: url('./images/photo1.png') no-repeat;
+    background: url('./images/photo1.png') ;
     display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 15px;
+    width: 100%;
 }
 
 .lower-1{
